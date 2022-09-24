@@ -1,0 +1,1157 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="JOY League Sapporo Football Soccer 札幌 サッカー ローカルリーグ フットボール ジョイリーグ">
+    <meta name="author" content="">
+    <title>Home - Joy League 2022</title>
+    <!-- Optional theme -->
+    <!-- Latest compiled and minified JavaScript -->
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.4/css/uikit.min.css" />
+
+    <!-- UIkit JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.4/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.4/js/uikit-icons.min.js"></script>
+
+    <link rel="stylesheet" href="./css/base.css?2019051501">
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-1932788-5', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+
+<body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v3.3"></script>
+    <header>
+        <div uk-sticky="media: 960"
+            class="uk-navbar-container tm-navbar-container uk-sticky uk-sticky-below uk-sticky-fixed"
+            style="position: fixed; top: 0px; width: 1350px;">
+            <div class="uk-container uk-container-expand">
+                <nav class="uk-navbar-container  uk-visible@m" uk-navbar>
+                    <div class="uk-navbar-left">
+                        <ul class="uk-navbar-nav">
+                            <li><a href="#home" uk-scroll><span uk-icon="icon: home"></span> Home</a>
+                            </li>
+                            <li><a href="#rule" uk-scroll><span uk-icon="icon: check"></span> Rule</a>
+                            </li>
+                            <li><a href="#schedule" uk-scroll><span uk-icon="icon: calendar"></span> Schedule</a>
+                            </li>
+                            <li><a href="#result" uk-scroll><span uk-icon="icon: list"></span> Result</a>
+                            </li>
+                            <li><a href="#ranking" uk-scroll><span uk-icon="icon: star"></span> Ranking</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <nav class="uk-navbar-container  uk-hidden@m" uk-navbar>
+                    <div class="uk-navbar-left">
+                        <a class="uk-navbar-toggle" uk-navbar-toggle-icon href="#offcanvas-menu" uk-toggle></a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+
+        <div id="offcanvas-menu" class="uk-offcanvas" uk-offcanvas>
+            <div class="uk-offcanvas-bar">
+                <div class="uk-panel">
+                    <ul class="uk-nav uk-nav-default tm-nav">
+                        <li><a href="#home" uk-scroll><span uk-icon="icon: home"></span> Home</a>
+                        </li>
+                        <li><a href="#rule" uk-scroll><span uk-icon="icon: check"></span> Rule</a>
+                        </li>
+                        <li><a href="#schedule" uk-scroll><span uk-icon="icon: calendar"></span> Schedule</a>
+                        </li>
+                        <li><a href="#result" uk-scroll><span uk-icon="icon: list"></span> Result</a>
+                        </li>
+                        <li><a href="#ranking" uk-scroll><span uk-icon="icon: star"></span> Ranking</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="uk-container">
+
+        <div class="uk-section uk-section-muted uk-padding-small" id="info">
+            <div class="uk-card">
+                <div class="uk-card-header uk-padding-small section-title-area">
+                    <h3 class="uk-card-title"><span uk-icon="icon: info"></span>お知らせ</h3>
+                </div>
+                <div class="uk-card-body uk-padding-small">
+                    <dl>
+                        <dt>2022.09.24</dt>
+                        <dd><a href="#result10" uk-scroll>第10週 結果更新</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>2022.08.26</dt>
+                        <dd><a href="#schedule" uk-scroll>第10週 開催日を変更</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>2022.08.22</dt>
+                        <dd><a href="#result09" uk-scroll>第9週 結果更新</a></dd>
+                    </dl>
+                    <!--
+                    <dl>
+                        <dt>2022.08.15</dt>
+                        <dd><a href="#result08" uk-scroll>第8週 結果更新</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>2022.08.02</dt>
+                        <dd><a href="#schedule" uk-scroll>第8週 場所と開催日を変更</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>2022.07.24</dt>
+                        <dd><a href="#result07" uk-scroll>第7週 結果更新</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>2022.07.24</dt>
+                        <dd><a href="#schedule" uk-scroll>第8週スケジュール変更</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>2022.07.14</dt>
+                        <dd><a href="#schedule" uk-scroll>8月スケジュール更新</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>2022.07.02</dt>
+                        <dd><a href="#result06" uk-scroll>第6週 結果更新</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>2022.07.01</dt>
+                        <dd><a href="#result05" uk-scroll>第5週 結果更新</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>2022.07.01</dt>
+                        <dd><a href="#result04" uk-scroll>第4週 結果更新</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>2022.06.14</dt>
+                        <dd><a href="#result03" uk-scroll>第3週 結果更新</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>2022.06.14</dt>
+                        <dd><a href="#schedule" uk-scroll>7月スケジュール更新</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>2022.06.07</dt>
+                        <dd><a href="#schedule" uk-scroll>第3週 場所変更</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>2022.06.04</dt>
+                        <dd><a href="#result02" uk-scroll>第2週 結果更新</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>2022.05.26</dt>
+                        <dd><a href="#result01" uk-scroll>第1週 結果更新</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>2022.05.26</dt>
+                        <dd><a href="#schedule" uk-scroll>スケジュール更新</a></dd>
+                    </dl>
+                    -->
+                </div>
+            </div>
+        </div>
+
+        <hr class="uk-divider-icon">
+
+        <div class="uk-section uk-section-muted uk-padding-small" id="rule">
+            <div class="uk-card">
+                <div class="uk-card-header uk-padding-small section-title-area">
+                    <h3 class="uk-card-title"><span uk-icon="icon: warning"></span> 実施要項</h3>
+                </div>
+                <div class="uk-card-body uk-padding-small">
+                    <div class="panel-body">
+                        <ul uk-accordion>
+                            <li>
+                                <a class="uk-accordion-title" href="#">目的</a>
+                                <div class="uk-accordion-content">
+                                    <ul>
+                                        <li>リーグ名の通り、楽しくサッカーを行う</li>
+                                        <li>グラウンドのシェア及び対戦相手の確保を行い、サッカーを行う環境を共有する</li>
+                                        <li>参加費用は基本的にグラウンド費用と若干の賞品代のみとする</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="uk-accordion-title" href="#">開催期間</a>
+                                <div class="uk-accordion-content">
+                                    <ul>
+                                        <li>グラウンドの確保状況によるが、5月～10月を予定する</li>
+                                        <li>参加表明を5月末までに事務局へ行う</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="uk-accordion-title" href="#">参加費</a>
+                                <div class="uk-accordion-content">
+                                    <ul>
+                                        <li>１チーム\25,000をシーズン開始時に事務局へ納入する</li>
+                                        <li>残金についてはシーズン終了後、各チームへ均等に返金する</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="uk-accordion-title" href="#">ルール</a>
+                                <div class="uk-accordion-content">
+                                    <ul>
+                                        <li>25分ハーフ(休憩5分)</li>
+                                        <li>交代要員は無制限</li>
+                                        <li>一度ベンチに下がった選手が再度プレーすることを許可する(ローカルルール)。ただし、遅延行為等につながる事が無いように、モラルの範疇でお願いします
+                                        </li>
+                                        <li>交代はアウトオブプレー時に行うこと</li>
+                                        <li>試合開始時に７名以上のメンバーを必須とする</li>
+                                        <li>レガースの着用を必須とする</li>
+                                        <li>貴金属品、アクセサリー等の着用は不可とする</li>
+                                        <li>審判への抗議は一切認めません。異議申し立ては事務局へ行う</li>
+                                        <li>順位の確定については１：勝点(勝３、分１、負０)、２：得失点差、３：ゴールアベレージ(総得点/総失点)の順で確定する</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="uk-accordion-title" href="#">運営</a>
+                                <div class="uk-accordion-content">
+                                    <ul>
+                                        <li>試合日程、組み合わせはリーグ事務局が決定します</li>
+                                        <li>ある程度の希望は事前に事務局へお知らせください。ただし、すべてにおいて希望に添えることはできませんので、予めご了承ください</li>
+                                        <li>札幌市施設予約から次月の抽選登録にご協力ください(基本 米里5時～8時。同時間帯で東雁来も可。東雁来が当選した場合、当選したチームの組合せを優先したい)
+                                        </li>
+                                        <li>雨天決行ですが、試合の実施が難しい状況であれば、当日の該当チームにて中止を決定し、その旨、事務局へ報告してください</li>
+                                        <li>審判は各チーム２名ずつ選出し、主審、副審、第４審判を遂行する</li>
+                                        <li>ホイッスル、フラッグ、時計、カード等、審判に必要なものは各チームにて用意する</li>
+                                        <li>結果(スコア、得点者、MIP(相手チーム：但し、正規ユニフォームのメンバーのみ(助っ人以外)))は試合翌日までに事務局へ報告してください</li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li>
+                                <a class="uk-accordion-title" href="#">ユニフォーム規定</a>
+                                <div class="uk-accordion-content">
+                                    <ul>
+                                        <li>チーム内で統一してください。最低限、上のユニフォームは統一してください</li>
+                                        <li>インナーについて、細かい規定はありませんが、判別つきにくい色の着用は避けてください</li>
+                                        <li>人数が揃わず、助っ人が必要となった場合は、ユニフォームを貸し出すか、全員ビブスを着用すること</li>
+                                        <li>その他、ユニフォームを統一出来ない日は、試合開始前に相手チームと相談し、試合中に問題がでないようにしてください(背番号の重複やチームの判別のしにくさ等)
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="uk-accordion-title" href="#">罰則</a>
+                                <div class="uk-accordion-content">
+                                    <ul>
+                                        <li>警告、退場については累積しない</li>
+                                        <li>悪質な行為については事務局と各チーム代表者による話し合いによって出場停止処分、除名処分の決定を行う</li>
+                                        <li>チーム全体で悪質な行為が続く場合、事務局と各チーム代表者による話し合いによって、処分の決定を行い、チームはそれに従う</li>
+                                        <li>人数不足等により試合を棄権した場合、１試合につき\5,000の罰金を事務局に収める</li>
+                                        <li>審判を放棄した場合、１試合につき\5,000の罰金を事務局に収める</li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li>
+                                <a class="uk-accordion-title" href="#">その他注意事項</a>
+                                <div class="uk-accordion-content">
+                                    <ul>
+                                        <li>なるべく審判は経験のある方を選出してください(ライセンス不要)</li>
+                                        <li>相手あってのリーグですので、相手を尊重したプレーを心掛けてください</li>
+                                        <li>怪我には十分気を付けてください(できればスポーツ保険等への加入をお勧めします。リーグ運営側でフォローはできません)</li>
+                                        <li>試合会場のゴミ(特にタバコとペットボトル)については必ず持ち帰るようお願いします</li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="uk-divider-icon">
+
+        <div class="uk-section uk-section-muted uk-padding-small" id="">
+            <div class="uk-card">
+                <div class="uk-card-header uk-padding-small uk-text-nowrap section-title-area">
+                    <h3 class="uk-card-title">2022シーズン リーグ表</h3>
+                </div>
+                <div class="uk-card-body uk-padding-small uk-overflow-auto">
+                    <div class="uk-container">
+                        <table class="uk-table uk-text-nowrap league-result">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>ロマ</th>
+                                    <th>Ve</th>
+                                    <th>ゴン</th>
+                                    <th>ブー</th>
+                                    <th>Ho</th>
+                                    <th style="text-align: center;">勝点</th>
+                                    <th style="text-align: center;">勝/負/分</th>
+                                    <th style="text-align: center;">得失差</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th style="vertical-align: top;">ロマネスコ</th>
+                                    <td class="disable"></td>
+                                    <td> ○ 3 - 0 <br/> ○ 7 - 0 </td>
+                                    <td> ○ 6 - 1 <br/> ○ 5 - 1 </td>
+                                    <td> ○ 3 - 1 <br/> △ 2 - 2 </td>
+                                    <td> ● 1 - 2 <br/> ● 0 - 1 </td>
+                                    <td>16</td>
+                                    <td>5/2/1</td>
+                                    <td>+19</td>
+                                </tr>
+                                <tr>
+                                    <th style="vertical-align: top;">Ventura</th>
+                                    <td> ● 0 - 3 <br/> ● 0 - 7 </td>
+                                    <td class="disable"></td>
+                                    <td> ● 1 - 4 <br/> ● 1 - 2 </td>
+                                    <td> △ 1 - 1 <br/> △ 1 - 1 </td>
+                                    <td> △ 1 - 1 <br/> ● 0 - 4 </td>
+                                    <td>3</td>
+                                    <td>0/5/3</td>
+                                    <td>-18</td>
+                                </tr>
+                                <tr>
+                                    <th style="vertical-align: top;">ゴントロ</th>
+                                    <td> ● 1 - 6 <br/> ● 1 - 5 </td>
+                                    <td> ○ 4 - 1 <br/> ○ 2 - 1 </td>
+                                    <td class="disable"></td>
+                                    <td> ● 1 - 3 <br/> ○ 2 - 0 </td>
+                                    <td> ● 0 - 2 <br/> △ 0 - 0 </td>
+                                    <td>10</td>
+                                    <td>3/4/1</td>
+                                    <td>-7</td>
+                                </tr>
+                                <tr>
+                                    <th style="vertical-align: top;">ブースターバックス</th>
+                                    <td> ● 1 - 3 <br/> △ 2 - 2 </td>
+                                    <td> △ 1 - 1 <br/> △ 1 - 1 </td>
+                                    <td> ○ 3 - 1 <br/> ● 0 - 2 </td>
+                                    <td class="disable"></td>
+                                    <td> ● 0 - 1 <br/> ● 1 - 2 </td>
+                                    <td>6</td>
+                                    <td>1/4/3</td>
+                                    <td>-4</td>
+                                </tr>
+                                <tr>
+                                    <th style="vertical-align: top;">Honda SC</th>
+                                    <td> ○ 2 - 1 <br/>○ 1 - 0 </td>
+                                    <td> △ 1 - 1 <br/> ○ 4 - 0 </td>
+                                    <td> ○ 2 - 0 <br/> △ 0 - 0 </td>
+                                    <td> ○ 1 - 0 <br/> ○ 2 - 1 </td>
+                                    <td class="disable"></td>
+                                    <td>20</td>
+                                    <td>6/0/2</td>
+                                    <td>+10</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <hr class="uk-divider-icon">
+
+        <div class="uk-section uk-section-muted uk-padding-small" id="schedule">
+            <div class="uk-card">
+                <div class="uk-card-header uk-padding-small section-title-area">
+                    <h3 class="uk-card-title">スケジュール</h3>
+                </div>
+                <div class="uk-card-body uk-padding-small uk-overflow-auto">
+                    <table class="uk-table schedule uk-text-nowrap">
+                        <thead>
+                            <tr>
+                                <th>週</th>
+                                <th>順</th>
+                                <th>場所</th>
+                                <th>日付</th>
+                                <th>時刻</th>
+                                <th>対戦</th>
+                                <th>主審</th>
+                                <th>副審</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td rowspan="2">1</td>
+                                <td>1</td>
+                                <td rowspan="2">米里B</td>
+                                <td rowspan="2">2022.05.21</td>
+                                <td>05:20</td>
+                                <td>Ventura vs ロマネスコ</td>
+                                <td>ブースターバックス</td>
+                                <td>ゴントロ</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>06:40</td>
+                                <td>ブースターバックス vs ゴントロ</td>
+                                <td>Ventura</td>
+                                <td>ロマネスコ</td>
+                            </tr>
+                            <tr class="even">
+                                <td rowspan="2">2</td>
+                                <td>1</td>
+                                <td rowspan="2">米里B</td>
+                                <td rowspan="2">2022.05.28</td>
+                                <td>05:20</td>
+                                <td>Ventura vs Honda SC</td>
+                                <td>ロマネスコ</td>
+                                <td>ブースターバックス</td>
+                            </tr>
+                            <tr class="even">
+                                <td>2</td>
+                                <td>06:40</td>
+                                <td>ロマネスコ vs ブースターバックス</td>
+                                <td>Ventura</td>
+                                <td>Honda SC</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">3</td>
+                                <td>1</td>
+                                <td rowspan="2"><span class="uk-badge">変更</span><br /><s>米里A</s><br />東雁来(東)</td>
+                                <td rowspan="2">2022.06.11</td>
+                                <td>05:20</td>
+                                <td>ゴントロ vs Honda SC</td>
+                                <td>Ventura</td>
+                                <td>ブースターバックス</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>06:40</td>
+                                <td>Ventura vs ブースターバックス</td>
+                                <td>ゴントロ</td>
+                                <td>Honda SC</td>
+                            </tr>
+                            <tr class="even">
+                                <td rowspan="2">4</td>
+                                <td>1</td>
+                                <td rowspan="2">米里D</td>
+                                <td rowspan="2">2022.06.18</td>
+                                <td>05:20</td>
+                                <td>ロマネスコ vs ゴントロ</td>
+                                <td>ブースターバックス</td>
+                                <td>Honda SC</td>
+                            </tr>
+                            <tr class="even">
+                                <td>2</td>
+                                <td>06:40</td>
+                                <td>ブースターバックス vs Honda SC</td>
+                                <td>ロマネスコ</td>
+                                <td>ゴントロ</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">5</td>
+                                <td>1</td>
+                                <td rowspan="2">米里B</td>
+                                <td rowspan="2">2022.06.25</td>
+                                <td>05:20</td>
+                                <td>Ventura vs ゴントロ</td>
+                                <td>ロマネスコ</td>
+                                <td>Honda SC</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>06:40</td>
+                                <td>ロマネスコ vs Honda SC</td>
+                                <td>Ventura</td>
+                                <td>ゴントロ</td>
+                            </tr>
+                            <tr class="even">
+                                <td rowspan="2">6</td>
+                                <td>1</td>
+                                <td rowspan="2">米里D</td>
+                                <td rowspan="2">2022.07.02</td>
+                                <td>05:20</td>
+                                <td>ゴントロ vs ブースターバックス</td>
+                                <td>ロマネスコ</td>
+                                <td>Ventura</td>
+                            </tr>
+                            <tr class="even">
+                                <td>2</td>
+                                <td>06:40</td>
+                                <td>ロマネスコ vs Ventura</td>
+                                <td>ゴントロ</td>
+                                <td>ブースターバックス</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">7</td>
+                                <td>1</td>
+                                <td rowspan="2">米里C</td>
+                                <td rowspan="2">2022.07.16</td>
+                                <td>05:20</td>
+                                <td>ブースターバックス vs ロマネスコ</td>
+                                <td>Honda SC</td>
+                                <td>Ventura</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>06:40</td>
+                                <td>Honda SC vs Ventura</td>
+                                <td>ブースターバックス</td>
+                                <td>ロマネスコ</td>
+                            </tr>
+                            <tr class="even">
+                                <td rowspan="2">8</td>
+                                <td>1</td>
+                                <td rowspan="2"><span class="uk-badge">変更</span><br /><s>米里B</s><br /><s>米里C</s><br />米里D</td>
+                                <td rowspan="2"><s>2022.07.23</s><br /><s>2022.07.30</s><br />2022.08.06</td>
+                                <td>05:20</td>
+                                <td>ブースターバックス vs Ventura</td>
+                                <td>Honda SC</td>
+                                <td>ゴントロ</td>
+                            </tr>
+                            <tr class="even">
+                                <td>2</td>
+                                <td>06:40</td>
+                                <td>Honda SC vs ゴントロ</td>
+                                <td>ブースターバックス</td>
+                                <td>Ventura</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">9</td>
+                                <td>1</td>
+                                <td rowspan="2">米里D</td>
+                                <td rowspan="2">2022.08.20</td>
+                                <td>05:20</td>
+                                <td>Honda SC vs ブースターバックス</td>
+                                <td>ゴントロ</td>
+                                <td>ロマネスコ</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>06:40</td>
+                                <td>ゴントロ vs ロマネスコ</td>
+                                <td>Honda SC</td>
+                                <td>ブースターバックス</td>
+                            </tr>
+                            <tr class="even">
+                                <td rowspan="2">10</td>
+                                <td>1</td>
+                                <td rowspan="2"><span class="uk-badge">変更</span><br />米里B</td>
+                                <td rowspan="2"><s>2022.08.27</s><br>2022.09.10</td>
+                                <td>05:20</td>
+                                <td>Honda SC vs ロマネスコ</td>
+                                <td>ゴントロ</td>
+                                <td>Ventura</td>
+                            </tr>
+                            <tr class="even">
+                                <td>2</td>
+                                <td>06:40</td>
+                                <td>ゴントロ vs Ventura</td>
+                                <td>Honda SC</td>
+                                <td>ロマネスコ</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="8">今年は総当り2回で開催します</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+
+        <hr class="uk-divider-icon">
+
+        <div class="uk-section uk-section-muted uk-padding-small" id="result">
+            <div class="uk-card">
+                <div class="uk-card-header uk-padding-small section-title-area">
+                    <h3 class="uk-card-title">試合結果</h3>
+                </div>
+                <div class="uk-card-body uk-padding-small">
+                    
+                    <div class="uk-card uk-box-shadow-small" id="result01" >
+                        <div class="uk-card-header uk-padding-small">
+                            <h4 class="uk-card-title">第1週 2022.05.21 米里B</h4>
+                        </div>
+                        <div class="uk-card-body uk-padding-small uk-overflow-auto">
+                            <div uk-grid>
+                                <div class="uk-width-1-2@m">
+                                    <table class="uk-table uk-text-nowrap">
+                                        <tr>
+                                            <td colspan="4">第1試合</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="uk-text-right">Ventura</td>
+                                            <td class="uk-text-center">0</td>
+                                            <td class="uk-text-center">3</td>
+                                            <td class="uk-text-left">ロマネスコ</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" class="uk-text-right uk-width-1-2">&nbsp;</td>
+                                            <td colspan="2" class="uk-text-left uk-width-1-2">丸山<br/>丸山<br/>細川</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="uk-width-1-2@m">
+                                    <table class="uk-table uk-text-nowrap">
+                                        <tr>
+                                            <td colspan="4">第2試合</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="uk-text-right">ブースターバックス</td>
+                                            <td class="uk-text-center">3</td>
+                                            <td class="uk-text-center">1</td>
+                                            <td class="uk-text-left">ゴントロ</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" class="uk-text-right uk-width-1-2">佐々木<br />佐々木<br />佐々木</td>
+                                            <td colspan="2" class="uk-text-left uk-width-1-2">野口</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-card-body uk-padding-small">
+                    <div class="uk-card uk-box-shadow-small" id="result02" >
+                        <div class="uk-card-header uk-padding-small">
+                            <h4 class="uk-card-title">第2週 2022.05.28 米里B</h4>
+                        </div>
+                        <div class="uk-card-body uk-padding-small uk-overflow-auto">
+                            <div uk-grid>
+                                <div class="uk-width-1-2@m">
+                                    <table class="uk-table uk-text-nowrap">
+                                        <tr>
+                                            <td colspan="4">第1試合</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="uk-text-right">Ventura</td>
+                                            <td class="uk-text-center">1</td>
+                                            <td class="uk-text-center">1</td>
+                                            <td class="uk-text-left">Honda SC</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" class="uk-text-right uk-width-1-2">深木拓斗</td>
+                                            <td colspan="2" class="uk-text-left uk-width-1-2">坂口</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="uk-width-1-2@m">
+                                    <table class="uk-table uk-text-nowrap">
+                                        <tr>
+                                            <td colspan="4">第2試合</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="uk-text-right">ロマネスコ</td>
+                                            <td class="uk-text-center">3</td>
+                                            <td class="uk-text-center">1</td>
+                                            <td class="uk-text-left">ブースターバックス</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" class="uk-text-right uk-width-1-2">三浦<br />丸山<br />佐藤</td>
+                                            <td colspan="2" class="uk-text-left uk-width-1-2">三上</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-card-body uk-padding-small">
+                    <div class="uk-card uk-box-shadow-small" id="result03" >
+                        <div class="uk-card-header uk-padding-small">
+                            <h4 class="uk-card-title">第3週 2022.06.11 東雁来(東)</h4>
+                        </div>
+                        <div class="uk-card-body uk-padding-small uk-overflow-auto">
+                            <div uk-grid>
+                                <div class="uk-width-1-2@m">
+                                    <table class="uk-table uk-text-nowrap">
+                                        <tr>
+                                            <td colspan="4">第1試合</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="uk-text-right">ゴントロ</td>
+                                            <td class="uk-text-center">0</td>
+                                            <td class="uk-text-center">2</td>
+                                            <td class="uk-text-left">Honda SC</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" class="uk-text-right uk-width-1-2">&nbsp;</td>
+                                            <td colspan="2" class="uk-text-left uk-width-1-2">坂本<br />長谷川</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="uk-width-1-2@m">
+                                    <table class="uk-table uk-text-nowrap">
+                                        <tr>
+                                            <td colspan="4">第2試合</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="uk-text-right">Ventura</td>
+                                            <td class="uk-text-center">1</td>
+                                            <td class="uk-text-center">1</td>
+                                            <td class="uk-text-left">ブースターバックス</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" class="uk-text-right uk-width-1-2">平木</td>
+                                            <td colspan="2" class="uk-text-left uk-width-1-2">細貝</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-card-body uk-padding-small">
+                    <div class="uk-card uk-box-shadow-small" id="result04" >
+                        <div class="uk-card-header uk-padding-small">
+                            <h4 class="uk-card-title">第4週 2022.06.18 米里D</h4>
+                        </div>
+                        <div class="uk-card-body uk-padding-small uk-overflow-auto">
+                            <div uk-grid>
+                                <div class="uk-width-1-2@m">
+                                    <table class="uk-table uk-text-nowrap">
+                                        <tr>
+                                            <td colspan="4">第1試合</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="uk-text-right">ロマネスコ</td>
+                                            <td class="uk-text-center">6</td>
+                                            <td class="uk-text-center">1</td>
+                                            <td class="uk-text-left">ゴントロ</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" class="uk-text-right uk-width-1-2">丸山<br />丸山<br />丸山<br />佐々木<br />佐々木<br />川口</td>
+                                            <td colspan="2" class="uk-text-left uk-width-1-2">横道</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="uk-width-1-2@m">
+                                    <table class="uk-table uk-text-nowrap">
+                                        <tr>
+                                            <td colspan="4">第2試合</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="uk-text-right">ブースターバックス</td>
+                                            <td class="uk-text-center">0</td>
+                                            <td class="uk-text-center">1</td>
+                                            <td class="uk-text-left">Honda SC</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" class="uk-text-right uk-width-1-2">&nbsp;</td>
+                                            <td colspan="2" class="uk-text-left uk-width-1-2">坂本</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-card-body uk-padding-small">
+                    <div class="uk-card uk-box-shadow-small" id="result05" >
+                        <div class="uk-card-header uk-padding-small">
+                            <h4 class="uk-card-title">第5週 2022.06.25 米里B</h4>
+                        </div>
+                        <div class="uk-card-body uk-padding-small uk-overflow-auto">
+                            <div uk-grid>
+                                <div class="uk-width-1-2@m">
+                                    <table class="uk-table uk-text-nowrap">
+                                        <tr>
+                                            <td colspan="4">第1試合</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="uk-text-right">Ventura</td>
+                                            <td class="uk-text-center">1</td>
+                                            <td class="uk-text-center">4</td>
+                                            <td class="uk-text-left">ゴントロ</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" class="uk-text-right uk-width-1-2">金澤</td>
+                                            <td colspan="2" class="uk-text-left uk-width-1-2">後藤<br />後藤<br />斎藤<br />斎藤</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="uk-width-1-2@m">
+                                    <table class="uk-table uk-text-nowrap">
+                                        <tr>
+                                            <td colspan="4">第2試合</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="uk-text-right">ロマネスコ</td>
+                                            <td class="uk-text-center">1</td>
+                                            <td class="uk-text-center">2</td>
+                                            <td class="uk-text-left">Honda SC</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" class="uk-text-right uk-width-1-2">丸山</td>
+                                            <td colspan="2" class="uk-text-left uk-width-1-2">斎藤<br />長谷川</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-card-body uk-padding-small">
+                    <div class="uk-card uk-box-shadow-small" id="result06" >
+                        <div class="uk-card-header uk-padding-small">
+                            <h4 class="uk-card-title">第6週 2022.07.02 米里D</h4>
+                        </div>
+                        <div class="uk-card-body uk-padding-small uk-overflow-auto">
+                            <div uk-grid>
+                                <div class="uk-width-1-2@m">
+                                    <table class="uk-table uk-text-nowrap">
+                                        <tr>
+                                            <td colspan="4">第1試合</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="uk-text-right">ゴントロ</td>
+                                            <td class="uk-text-center">2</td>
+                                            <td class="uk-text-center">0</td>
+                                            <td class="uk-text-left">ブースターバックス</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" class="uk-text-right uk-width-1-2">野口<br />斎藤</td>
+                                            <td colspan="2" class="uk-text-left uk-width-1-2">&nbsp;</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="uk-width-1-2@m">
+                                    <table class="uk-table uk-text-nowrap">
+                                        <tr>
+                                            <td colspan="4">第2試合</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="uk-text-right">ロマネスコ</td>
+                                            <td class="uk-text-center">7</td>
+                                            <td class="uk-text-center">0</td>
+                                            <td class="uk-text-left">Ventura</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" class="uk-text-right uk-width-1-2">丸山<br />丸山<br />丸山<br />川口<br />工藤<br />新川<br />新川</td>
+                                            <td colspan="2" class="uk-text-left uk-width-1-2">&nbsp;</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-card-body uk-padding-small">
+                    <div class="uk-card uk-box-shadow-small" id="result07" >
+                        <div class="uk-card-header uk-padding-small">
+                            <h4 class="uk-card-title">第7週 2022.07.16 米里C</h4>
+                        </div>
+                        <div class="uk-card-body uk-padding-small uk-overflow-auto">
+                            <div uk-grid>
+                                <div class="uk-width-1-2@m">
+                                    <table class="uk-table uk-text-nowrap">
+                                        <tr>
+                                            <td colspan="4">第1試合</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="uk-text-right">ブースターバックス</td>
+                                            <td class="uk-text-center">2</td>
+                                            <td class="uk-text-center">2</td>
+                                            <td class="uk-text-left">ロマネスコ</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" class="uk-text-right uk-width-1-2">三上<br />細貝</td>
+                                            <td colspan="2" class="uk-text-left uk-width-1-2">佐々木<br />佐々木</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="uk-width-1-2@m">
+                                    <table class="uk-table uk-text-nowrap">
+                                        <tr>
+                                            <td colspan="4">第2試合</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="uk-text-right">Honda SC</td>
+                                            <td class="uk-text-center">4</td>
+                                            <td class="uk-text-center">0</td>
+                                            <td class="uk-text-left">Ventura</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" class="uk-text-right uk-width-1-2">斎藤<br />斎藤<br />斎藤<br />山本</td>
+                                            <td colspan="2" class="uk-text-left uk-width-1-2">&nbsp;</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-card-body uk-padding-small">
+                    <div class="uk-card uk-box-shadow-small" id="result08" >
+                        <div class="uk-card-header uk-padding-small">
+                            <h4 class="uk-card-title">第8週 2022.08.06 米里D</h4>
+                        </div>
+                        <div class="uk-card-body uk-padding-small uk-overflow-auto">
+                            <div uk-grid>
+                                <div class="uk-width-1-2@m">
+                                    <table class="uk-table uk-text-nowrap">
+                                        <tr>
+                                            <td colspan="4">第1試合</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="uk-text-right">ブースターバックス</td>
+                                            <td class="uk-text-center">1</td>
+                                            <td class="uk-text-center">1</td>
+                                            <td class="uk-text-left">Ventura</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" class="uk-text-right uk-width-1-2">佐々木</td>
+                                            <td colspan="2" class="uk-text-left uk-width-1-2">加藤</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="uk-width-1-2@m">
+                                    <table class="uk-table uk-text-nowrap">
+                                        <tr>
+                                            <td colspan="4">第2試合</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="uk-text-right">Honda SC</td>
+                                            <td class="uk-text-center">0</td>
+                                            <td class="uk-text-center">0</td>
+                                            <td class="uk-text-left">ゴントロ</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" class="uk-text-right uk-width-1-2">&nbsp;</td>
+                                            <td colspan="2" class="uk-text-left uk-width-1-2">&nbsp;</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-card-body uk-padding-small">
+                    <div class="uk-card uk-box-shadow-small" id="result09" >
+                        <div class="uk-card-header uk-padding-small">
+                            <h4 class="uk-card-title">第9週 2022.08.20 米里D</h4>
+                        </div>
+                        <div class="uk-card-body uk-padding-small uk-overflow-auto">
+                            <div uk-grid>
+                                <div class="uk-width-1-2@m">
+                                    <table class="uk-table uk-text-nowrap">
+                                        <tr>
+                                            <td colspan="4">第1試合</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="uk-text-right">Honda SC</td>
+                                            <td class="uk-text-center">2</td>
+                                            <td class="uk-text-center">1</td>
+                                            <td class="uk-text-left">ブースターバックス</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" class="uk-text-right uk-width-1-2">松岡<br />長谷川</td>
+                                            <td colspan="2" class="uk-text-left uk-width-1-2">佐々木</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="uk-width-1-2@m">
+                                    <table class="uk-table uk-text-nowrap">
+                                        <tr>
+                                            <td colspan="4">第2試合</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="uk-text-right">ゴントロ</td>
+                                            <td class="uk-text-center">1</td>
+                                            <td class="uk-text-center">5</td>
+                                            <td class="uk-text-left">ロマネスコ</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" class="uk-text-right uk-width-1-2">斎藤</td>
+                                            <td colspan="2" class="uk-text-left uk-width-1-2">四辻<br />四辻<br />四辻<br />浅利<br />川口</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-card-body uk-padding-small">
+                    <div class="uk-card uk-box-shadow-small" id="result10" >
+                        <div class="uk-card-header uk-padding-small">
+                            <h4 class="uk-card-title">第10週 2022.09.10 米里B</h4>
+                        </div>
+                        <div class="uk-card-body uk-padding-small uk-overflow-auto">
+                            <div uk-grid>
+                                <div class="uk-width-1-2@m">
+                                    <table class="uk-table uk-text-nowrap">
+                                        <tr>
+                                            <td colspan="4">第1試合</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="uk-text-right">Honda SC</td>
+                                            <td class="uk-text-center">1</td>
+                                            <td class="uk-text-center">0</td>
+                                            <td class="uk-text-left">ロマネスコ</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" class="uk-text-right uk-width-1-2">長谷川</td>
+                                            <td colspan="2" class="uk-text-left uk-width-1-2">&nbsp;</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="uk-width-1-2@m">
+                                    <table class="uk-table uk-text-nowrap">
+                                        <tr>
+                                            <td colspan="4">第2試合</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="uk-text-right">ゴントロ</td>
+                                            <td class="uk-text-center">2</td>
+                                            <td class="uk-text-center">1</td>
+                                            <td class="uk-text-left">Ventura</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" class="uk-text-right uk-width-1-2">戸島<br />横道</td>
+                                            <td colspan="2" class="uk-text-left uk-width-1-2">山野</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="uk-divider-icon">
+
+        <div class="uk-section uk-section-muted uk-padding-small" id="ranking">
+            <div class="uk-card">
+                <div class="uk-card-header uk-padding-small section-title-area">
+                    <h3 class="uk-card-title">チームランキング</h3>
+                </div>
+                <div class="uk-card-body uk-padding-small uk-overflow-auto">
+                        <table class="uk-table uk-text-nowrap uk-table-striped">
+                            <thead>
+                                <tr>
+                                    <th class="uk-text-right">順</th>
+                                    <th>チーム</th>
+                                    <th class="uk-text-right">勝</th>
+                                    <th class="uk-text-right">負</th>
+                                    <th class="uk-text-right">分</th>
+                                    <th class="uk-text-right">勝点</th>
+                                    <th class="uk-text-right">得点</th>
+                                    <th class="uk-text-right">失点</th>
+                                    <th class="uk-text-right">得失点</th>
+                                    <th class="uk-text-right">試合数</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr><td class="num">1</td><td class="str">Honda SC</td><td class="num">6</td><td class="num">0</td><td class="num">2</td><td class="num">20</td><td class="num">13</td><td class="num">3</td><td class="num">10</td><td class="num">8</td></tr>
+                                <tr><td class="num">2</td><td class="str">ロマネスコ</td><td class="num">5</td><td class="num">2</td><td class="num">1</td><td class="num">16</td><td class="num">27</td><td class="num">8</td><td class="num">19</td><td class="num">8</td></tr>
+                                <tr><td class="num">3</td><td class="str">ゴントロ</td><td class="num">3</td><td class="num">4</td><td class="num">1</td><td class="num">10</td><td class="num">11</td><td class="num">18</td><td class="num">-7</td><td class="num">8</td></tr>
+                                <tr><td class="num">4</td><td class="str">ブースターバックス</td><td class="num">1</td><td class="num">4</td><td class="num">3</td><td class="num">6</td><td class="num">8</td><td class="num">12</td><td class="num">-4</td><td class="num">8</td></tr>
+                                <tr><td class="num">5</td><td class="str">Ventura</td><td class="num">0</td><td class="num">5</td><td class="num">3</td><td class="num">3</td><td class="num">4</td><td class="num">22</td><td class="num">-18</td><td class="num">8</td></tr>
+                            </tbody>
+                        </table>
+                </div>
+            </div>
+            <div class="uk-card">
+                <div class="uk-card-header uk-padding-small section-title-area">
+                    <h3 class="uk-card-title">得点ランキング</h3>
+                </div>
+                <div class="uk-card-body uk-padding-small">
+                    <table class="uk-table uk-text-nowrap uk-table-striped">
+                        <thead>
+                            <tr>
+                                <th class="uk-text-right">順</th>
+                                <th>名前</th>
+                                <th>チーム</th>
+                                <th class="uk-text-right">得点数</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td class="num">1</td><td class="str">丸山</td><td class="str">ロマネスコ</td><td class="num">10</td></tr>
+                            <tr><td class="num">2</td><td class="str">斎藤</td><td class="str">Honda SC</td><td class="num">5</td></tr>
+                            <tr><td class="num">2</td><td class="str">佐々木</td><td class="str">ブースターバックス</td><td class="num">5</td></tr>
+                            <tr><td class="num">4</td><td class="str">長谷川</td><td class="str">Honda SC</td><td class="num">4</td></tr>
+                            <tr><td class="num">4</td><td class="str">斎藤</td><td class="str">ゴントロ</td><td class="num">4</td></tr>
+                            <tr><td class="num">4</td><td class="str">佐々木</td><td class="str">ロマネスコ</td><td class="num">4</td></tr>
+                            <tr><td class="num">7</td><td class="str">四辻</td><td class="str">ロマネスコ</td><td class="num">3</td></tr>
+                            <tr><td class="num">7</td><td class="str">川口</td><td class="str">ロマネスコ</td><td class="num">3</td></tr>
+                            <tr><td class="num">9</td><td class="str">坂本</td><td class="str">Honda SC</td><td class="num">2</td></tr>
+                            <tr><td class="num">9</td><td class="str">後藤</td><td class="str">ゴントロ</td><td class="num">2</td></tr>
+                            <tr><td class="num">9</td><td class="str">横道</td><td class="str">ゴントロ</td><td class="num">2</td></tr>
+                            <tr><td class="num">9</td><td class="str">野口</td><td class="str">ゴントロ</td><td class="num">2</td></tr>
+                            <tr><td class="num">9</td><td class="str">三上</td><td class="str">ブースターバックス</td><td class="num">2</td></tr>
+                            <tr><td class="num">9</td><td class="str">細貝</td><td class="str">ブースターバックス</td><td class="num">2</td></tr>
+                            <tr><td class="num">9</td><td class="str">新川</td><td class="str">ロマネスコ</td><td class="num">2</td></tr>
+                            <tr><td class="num">16</td><td class="str">坂口</td><td class="str">Honda SC</td><td class="num">1</td></tr>
+                            <tr><td class="num">16</td><td class="str">山本</td><td class="str">Honda SC</td><td class="num">1</td></tr>
+                            <tr><td class="num">16</td><td class="str">松岡</td><td class="str">Honda SC</td><td class="num">1</td></tr>
+                            <tr><td class="num">16</td><td class="str">加藤</td><td class="str">Ventura</td><td class="num">1</td></tr>
+                            <tr><td class="num">16</td><td class="str">山野</td><td class="str">Ventura</td><td class="num">1</td></tr>
+                            <tr><td class="num">16</td><td class="str">平木</td><td class="str">Ventura</td><td class="num">1</td></tr>
+                            <tr><td class="num">16</td><td class="str">深木拓斗</td><td class="str">Ventura</td><td class="num">1</td></tr>
+                            <tr><td class="num">16</td><td class="str">金澤</td><td class="str">Ventura</td><td class="num">1</td></tr>
+                            <tr><td class="num">16</td><td class="str">戸島</td><td class="str">ゴントロ</td><td class="num">1</td></tr>
+                            <tr><td class="num">16</td><td class="str">三浦</td><td class="str">ロマネスコ</td><td class="num">1</td></tr>
+                            <tr><td class="num">16</td><td class="str">佐藤</td><td class="str">ロマネスコ</td><td class="num">1</td></tr>
+                            <tr><td class="num">16</td><td class="str">工藤</td><td class="str">ロマネスコ</td><td class="num">1</td></tr>
+                            <tr><td class="num">16</td><td class="str">浅利</td><td class="str">ロマネスコ</td><td class="num">1</td></tr>
+                            <tr><td class="num">16</td><td class="str">細川</td><td class="str">ロマネスコ</td><td class="num">1</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+
+        <hr class="uk-divider-icon">
+
+        <div class="uk-section uk-section-muted uk-padding-small" id="">
+            <div class="uk-card">
+                <div class="uk-card-header uk-padding-small">
+                    <h3 class="uk-card-title">Facebook</h3>
+                </div>
+                <div class="uk-card-body uk-padding-small">
+                    <div class="fb-page" data-href="https://www.facebook.com/sapjoyleague/" data-tabs="timeline"
+                        data-width="" data-height="" data-small-header="true" data-adapt-container-width="true"
+                        data-hide-cover="false" data-show-facepile="false">
+                        <blockquote cite="https://www.facebook.com/sapjoyleague/" class="fb-xfbml-parse-ignore"><a
+                                href="https://www.facebook.com/sapjoyleague/">JoyLeague</a></blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
